@@ -8,19 +8,23 @@ function App() {
   return (
     <div className="App">
         <div className="container">
-        <div>
-          <h1 className="Title">NEW</h1>
-        </div>
-        <div>
-          <p1>Text1</p1>
-          <p2>Text2</p2>
-          <p3>Text3</p3>
-          <p4>Text4</p4>
-          <p5>Text5</p5>
-          <p6>Text6</p6>
-        </div>
-        <div>
-          <div className="p">Text1</div>
+          <div className="t">
+          <div className="top">
+            <div>
+              <h1 className="Title">NEW</h1>
+            </div>
+            <div className="a"> 
+              <p1>Text1</p1>
+              <p2>Text2</p2>
+              <p3>Text3</p3>
+              <p4>Text4</p4>
+              <p5>Text5</p5>
+            </div>
+          </div>
+          </div>
+        <div className="body">
+        <div className="p">
+          <div className="t1">Text1</div>
           <div>Text2</div>
           <div>Text3</div>
           <div>Text4</div>
@@ -32,11 +36,13 @@ function App() {
           <div>Text10</div>
           <div>Text11</div>
           <div>Text12</div>
-        </div>
+        </div>        
         <div className="Delivery">
-          <div>Free Delivery</div>
+          <div className="name">Free Delivery</div>
           <div>Random text as padding for letters</div>
         </div>
+        </div>
+        <div className="Row">
         <div className="Row1">
           {cards.map(card => (
             <CardType
@@ -56,6 +62,7 @@ function App() {
               endtext={card.endtext}
             />
           ))}
+        </div>
         </div>
         </div>
     </div>  

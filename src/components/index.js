@@ -10,7 +10,7 @@ const CardType = (props) => {
     return (
         <div className="card">
             <img
-            style={{width: 66, height: 58}} 
+            style={{width: 271, height: 100}} 
             alt="" src={src}/>
             <h3>{title}</h3>
             <p>{text}</p>

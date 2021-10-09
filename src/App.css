@@ -1,10 +1,85 @@
 .App{
-  background: yellow;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  background: rgb(221, 214, 21);
+  padding: 5%;
 }
 .container{
-  background: blue;
+  background: rgb(85, 18, 255);
   margin-left: 5%;
   margin-right: 5%;
+  display: flex;
+  padding-right: 22px;
 }
+.Title{
+  color: white;
+  font-weight: normal;
+}
+.a{
+  color: white;
+  padding-top: 38px;
+}
+.a p1{
+  margin-left: 185%;
+}
+.a p2{
+  margin-left:35%;
+}
+.a p3{
+  margin-left:35%;
+}
+.a p4{
+  margin-left:35%;
+}
+.a p5{
+  margin-left:25%;
+}
+.p{
+  color: white;
+  font-weight: bold;
+  padding-top: 1em;
+}
+.t{
+margin-left: 35px;
+}
+.t1{
+  margin-bottom: 2em;
+}
+.Delivery{
+  color: white;
+  border: 1px solid white;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-top: 10px;
+  margin-top: 2em;
+  width: 60%;
+}
+.top{
+  display:flex;
+  margin-left: 118%;
+  margin-top: 1em;
+}
+.card{
+  margin-right: 10px;
+  background: white;
+}
+.Row{
+  margin-top: 7%;
+  margin-bottom: 2em;
+}
+.Row1{
+  display: flex;
+  margin-top: 1em;
+  margin-bottom: 1em; 
+}
+.Row2{
+  display: flex;
+  margin-bottom: 1em;
+}
+.body{
+  margin-top: 7%;
+  margin-left: -215px;
+}
+.name{
+  font-weight: bold;
+}
+
